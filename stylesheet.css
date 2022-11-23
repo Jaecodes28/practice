@@ -1,0 +1,13 @@
+*{
+    border: 2px solid red;
+}
+
+div {
+    margin:20px; 
+    padding: 100px;
+    text-align: center;
+    font-family: Arial;
+    font-weight:600;
+    display:flex;
+    
+}
