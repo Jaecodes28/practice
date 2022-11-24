@@ -1,13 +1,30 @@
-*{
-    border: 2px solid red;
+* {
+   /* border: .5px solid red; */
 }
 
-div {
-    margin:20px; 
-    padding: 100px;
-    text-align: center;
-    font-family: Arial;
-    font-weight:600;
-    display:flex;
-    
+body {
+    background-color: #1F2937;
+}
+
+header {
+    margin: 20px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.logo {
+    color: #F9FAF8;
+    size: 24px;
+}
+
+.nav-menu {
+    color: #F9FAF8;
+    size: 24px;
 }
