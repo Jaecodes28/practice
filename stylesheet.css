@@ -1,30 +1,24 @@
-* {
-   /* border: .5px solid red; */
-}
-
 body {
     background-color: #1F2937;
 }
 
 header {
-    margin: 20px;
-    padding: 10px;
-}
-
-nav {
+    background: lightblue;
+    padding: 16px;
+    border: 2px solid blue;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-   
+    
 }
 
-.logo {
-    color: #F9FAF8;
-    size: 24px;
+header > div {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 250px;
 }
 
-.nav-menu {
-    color: #F9FAF8;
-    size: 24px;
+ul > li {
+    display: inline;
+    
 }
+
