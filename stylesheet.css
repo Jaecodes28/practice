@@ -2,6 +2,12 @@ body {
     background-color: #1F2937;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
 header {
     background: lightblue;
     padding: 16px;
@@ -11,14 +17,58 @@ header {
     
 }
 
-header > div {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 250px;
+header > a {
+    flex: 1;
+    margin: auto;
+    padding-left: 100px;
 }
 
-ul > li {
-    display: inline;
-    
+ul {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+    list-style-type: none;
 }
 
+li {
+    padding: 10px 30px;
+}
+
+.upperhero {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex: 1;
+    padding: 150px;
+}
+
+.herotext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup {
+    color: white;
+    background-color: #3882F6;
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.right  {
+    flex: 1;
+    padding: 150px;
+    text-align: center;
+}
+
+.placeholder {
+    color: white;
+    background-color: grey;
+    width: 450px;
+    height: 265px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
