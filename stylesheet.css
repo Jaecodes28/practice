@@ -60,7 +60,6 @@ li {
 .right  {
     flex: 1;
     padding: 150px;
-    text-align: center;
 }
 
 .placeholder {
@@ -69,6 +68,23 @@ li {
     width: 450px;
     height: 265px;
     text-align: center;
-    margin: auto;
-    padding: auto;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.section3 {
+    background-color: white;
+    display: block;
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+    height: 120px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.section3box{
+    display: flex;
 }
